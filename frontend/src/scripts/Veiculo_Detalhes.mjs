@@ -1,5 +1,8 @@
 import veiculos from './entidades/Veiculos.mjs'
 
+
+
+
 function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, '\\$&')
     const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`)
@@ -14,9 +17,9 @@ const veiculo = veiculos.find(v => v.id == id)
 
 if (veiculo) {
 
-    const container = document.getElementById('detalhes-veiculo')
+    const container = document.getElementById('detalhes-interesse')
     const imagem = document.createElement('img')
-    imagem.className = 'imagem'
+    imagem.className = 'imagemInteresse'
     imagem.src = veiculo.imagem[0]
     imagem.alt = veiculo.modelo
     

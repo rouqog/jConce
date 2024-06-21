@@ -8,6 +8,12 @@
 </head>
 <body>
     <script type="module" src="/frontend/src/scripts/Veiculo_Detalhes.mjs"></script>
+    <script>
+        function redirecionar() {
+            alert("Um E-MAIL foi encaminhado à concessionária. Entraremos em contato.")
+            window.location.href = "/frontend/src/páginas/Menu_Inicial.html"
+        }
+    </script>
     <nav id="menu">
         <h1>SIMMAS AUTOMÓVEIS</h1>
     </nav>
@@ -18,7 +24,7 @@
                 <input type="text" id="nome" name="nome" placeholder="Nome" required>
                 <input type="email" id="email" name="email" placeholder="Email" required>
                 <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
-                <button type="submit">CONFIRMAR</button>
+                <button type="button" onclick="redirecionar()">CONFIRMAR INTERESSE</button>
             </form>
         </div>
     </div>

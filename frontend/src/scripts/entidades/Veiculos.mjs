@@ -24,7 +24,7 @@ const veiculos = [
         id: 3,
         modelo: "Polo",
         marca: "Volkswagen",
-        categoria: "Hatch",
+        categoria: "Compacto",
         preco: "R$ 85.000",
         quilometragem: "101.340 KM Rodados",
         tipo: "Carro",
