@@ -13,9 +13,8 @@ const id = getParameterByName('id')
 const veiculo = veiculos.find(v => v.id == id)
 
 if (veiculo) {
+
     const container = document.getElementById('detalhes-veiculo')
-
-
     const imagem = document.createElement('img')
     imagem.className = 'imagem'
     imagem.src = veiculo.imagem[0]
@@ -24,5 +23,5 @@ if (veiculo) {
     container.appendChild(imagem)
 
 } else {
-    document.getElementById('detalhes-veiculo').textContent = 'Veículo não encontrado.'
+    document.getElementById('detalhes-veiculo').textContent = 'Veículo não encontrado'
 }

@@ -105,7 +105,7 @@ const veiculos = [
         id: 11,
         modelo: "Twister",
         marca: "Honda",
-        categoria: "Esportiva",
+        categoria: "Semi-esportiva",
         preco: "R$ 25.000",
         quilometragem: "300 KM Rodados",
         tipo: "Moto",
