@@ -1,0 +1,113 @@
+body, html {
+    body {
+        background: 
+            linear-gradient(to bottom, #27292c, #27292c, #000000 120%, #000000 120%),
+            url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAc/xKkYAAAAASUVORK5CYII=');
+        background-blend-mode: overlay;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+}
+
+/* cabeçalho */
+#menu {
+    background-image: linear-gradient(to right, #000000, #27292c, #27292c, #000000);
+    padding-right: 3px;
+    padding-left: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+#menu h1 {
+    color:white;
+    text-align: center;
+    font-family: "archivo", sans-serif;
+    font-size: 30px;
+}
+
+/* botões de redirecionamento */
+
+.botoesRedirecionamento {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    
+}
+.botoesRedirecionamento img {
+    object-fit: cover;
+    width: 700px;
+    height: 300px;
+    flex: 2;
+    margin: 20px;
+}
+.botoesRedirecionamento img:hover {
+    transform: scale(1.05);
+}
+.botoesRedirecionamento a {
+    text-decoration: none;
+    color: #eef5fc;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* área de veículos aleatórios */
+
+.container-grid h1{
+    color:white;
+    text-align: center;
+    font-family: "archivo", sans-serif;
+    font-size: 30px;
+}
+
+#veiculos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "archivo", sans-serif;
+    gap: 100px;
+    padding: 94px;
+}
+
+.card-veiculo:hover {
+    transform: scale(1.05);
+}
+.card-veiculo {
+    background-color: #27292c;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.card-veiculo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.card-veiculo .detalhes {
+    padding: 15px;
+}
+.card-veiculo .detalhes h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color:white
+}
+.card-veiculo .detalhes p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* rodapé */
+.rodape{
+    font-style: italic;
+    font-size:small;
+    color: #393c42;
+    text-align: center;
+}

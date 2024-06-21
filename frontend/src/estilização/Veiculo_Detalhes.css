@@ -1,0 +1,74 @@
+body, html {
+    body {
+        background: 
+            linear-gradient(to bottom, #27292c, #27292c, #000000 120%, #000000 120%),
+            url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAc/xKkYAAAAASUVORK5CYII=');
+        background-blend-mode: overlay;
+        background-size: cover;
+        height: 100vh;
+        
+    }
+    
+}
+
+#menu {
+    background-image: linear-gradient(to right, #000000, #27292c, #27292c, #000000);
+    padding-right: 3px;
+    padding-left: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+#menu h1 {
+    color:white;
+    text-align: center;
+    font-family: "archivo", sans-serif;
+    font-size: 30px;
+}
+
+#detalhes-veiculo {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+}
+#detalhes-veiculo h2 {
+    color:white;
+    font-family: "archivo", sans-serif;
+    margin-bottom: 20px;
+}
+#detalhes-veiculo form {
+    display: flex;
+    flex-direction: column;
+}
+#detalhes-veiculo form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#detalhes-veiculo form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#detalhes-veiculo form button:hover {
+    background-color: #0056b3;
+}
+#detalhes-veiculo img {
+    height: 500px;
+    width: 700px;
+}
+
+.form-interesse {
+    padding: 20px;
+    text-align: center;
+}
